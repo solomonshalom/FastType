@@ -16,6 +16,10 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
+  "prefer-const": ["error", {
+    "destructuring": "any",
+    "ignoreReadBeforeAssign": false
+}],
   settings: {
     react: {
       version: 'detect'
