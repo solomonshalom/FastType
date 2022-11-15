@@ -5,7 +5,7 @@ import { memo } from 'react'
 export const Nav = memo(function Nav() {
   return (
     <nav className={styles.nav}>
-      <div className={styles.appName}>CyberType</div>
+      <div className={styles.appName}>Fast Type</div>
       <a
         href="https://github.com/solomonshalom/FastType"
         target="_blank"
